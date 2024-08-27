@@ -1,0 +1,57 @@
+body{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    color: rgb(57, 57, 227);
+}
+
+h3{
+    color: orange;
+}
+
+#presentacion{
+    color:red
+}
+
+#spanpresentacion{
+    color:rgb(103, 32, 32)
+}
+
+#multimedial{
+    color: rgb(16, 178, 16);
+}
+
+#spanmultimedial{
+    color: rgb(11, 77, 11);
+}
+
+#web{
+    color: brown;
+}
+
+#spanweb{
+    color:rgb(59, 24, 24)
+}
+
+#cortos{
+    color:grey
+}
+
+#spancortos{
+    color:rgb(42, 42, 42)
+}
+
+#profesional{
+    color: rgb(243, 45, 230);
+}
+
+#spanprofesional{
+    color: rgb(149, 63, 143);
+}
+
+#italic{
+    font-style: italic;
+}
+
