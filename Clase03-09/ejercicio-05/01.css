@@ -1,0 +1,53 @@
+body {
+    background-color: yellow;
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    body {
+        background-color: lime;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    body {
+        background-color: cyan;
+    }
+}
+
+
+.page {
+    max-width: 960px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    .page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    article {
+        width: 60%;
+    }
+    aside {
+        width: 40%;
+    }
+    
+}
+
+@media (min-width: 992px) and (orientation: landscape) {
+    .page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article {
+        width: 70%;
+    }
+    aside {
+        width: 30%;
+    }
+}
