@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(33, 39, 63);
+    color: white;
+    font-family: sans-serif;
+}
+
+#contenido {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#cabecera{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav {
+    width: 30%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+#tittle h1 {
+    font-size: 15px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tittle p {
+    font-size: 10px;
+    width: 100%;
+    margin-top: -15px;
+}
+
+#tittle{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    width: 80%;
+}
+
+#coordenadas {
+    display: flex;
+    font-weight: bold;
+    width: 50%;
+    padding-left: 40px;
+}
+
+#navegacion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 25px;
+}
+
+#principal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#subtittle{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+#subtittle h2{
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+#texto {
+    width: 70%;
+    display: flex;
+}
+
+#texto p {
+    font-size: 14px;
+    padding: 2%;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    display: flex;
+    width: 100%;
+    margin:0; 
+    padding: 0;
+}
+
+#fotos{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    list-style: none;   
+    justify-content: space-between;
+} 
+
+
+
