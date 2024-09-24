@@ -1,0 +1,108 @@
+
+body{
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+}
+
+#contenido{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/imagen.jpeg);
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    background-color: grey;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+    height: 50px;
+}
+
+#izquierda{
+    width: 25%;
+    display: flex;
+    margin:0;
+    color:white
+}
+
+#logo{
+    display: flex;
+    margin: 5px;
+}
+
+#texto{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+#texto p{
+    padding: 5px;
+}
+
+#derecha{
+    width: 15%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+li{
+    color:white;
+    padding: 5px;
+}
+
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+
+#serie{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    flex-direction: column;
+}
+
+#descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    color: white;
+}
+#descripcion p {
+    text-align: center;
+}
+
+#boton{
+    display: flex;
+    background-color: rgb(179, 58, 14);
+    width: 25%;
+}
+
+a{  
+    text-decoration: none;
+    color: white;
+}
